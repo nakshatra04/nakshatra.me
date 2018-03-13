@@ -1,26 +1,17 @@
-/*
-Theme Name: IAMX
-Author: Ahmed Faruk
-Author URL: farukahmed.com
-*/
 
-/*
-    = Preloader
-    = Animated scrolling / Scroll Up
-    = Full Screen Slider
-    = Sticky Menu
-    = Back To Top
-    = Countup
-    = Progress Bar
-    = More skill
-    = Shuffle
-    = Magnific Popup
-    = Vidio auto play
-    = Fit Vids
-    = Google Map
-
-*/
-
+//    = Preloader
+//    = Animated scrolling / Scroll Up
+//    = Full Screen Slider
+//    = Sticky Menu
+//    = Back To Top
+//    = Countup
+//    = Progress Bar
+//    = More skill
+//    = Shuffle
+//    = Magnific Popup
+//    = Vidio auto play
+//    = Fit Vids
+//    = Google Map
 jQuery(function ($) {
 
     'use strict';
