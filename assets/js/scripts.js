@@ -191,11 +191,30 @@ jQuery(function ($) {
         },
         removalDelay: 300, // Delay in milliseconds before popup is removed
         mainClass: 'mfp-with-zoom', // this class is for CSS animation below
-        type:'image'
+            type:'image'
 
       });
 
     }());
+
+    /*----------------------------------------------------*/
+    /*	Modal Popup
+    ------------------------------------------------------*/
+    $('.image-link2').magnificPopup({
+
+        type:'inline',
+        fixedContentPos: false,
+        removalDelay: 300,
+        showCloseBtn: true,
+        mainClass: 'mfp-fade'
+
+    });
+
+    $(document).on('click', '.popup-modal-dismiss', function (e) {
+        e.preventDefault();
+        $.magnificPopup.close();
+    });
+
 
 
 
