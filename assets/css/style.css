@@ -242,21 +242,25 @@ ul, ol {
 
 
 ul.list-check {
-    
 }
 
+ul.list-check a {
+    color: black;
+}
+ul.list-check a:hover {
+    color:#68c3a3;
+}
 ul.list-check li{
     position: relative;
     font-size: 18px;
     line-height: 32px;
 }
 ul.list-check li::before {
-    content: "\f00c";
+    content:"*";
     font-family: fontawesome;
     color: #68c3a3;
     margin-right: 10px;
 }
-
 
 /* === MAIN === */
 .section-padding {
@@ -342,6 +346,7 @@ ul.list-check li::before {
 .intro p{
 	color: #f7f7f7;
 	margin-bottom: 40px;
+    font-size: 1.5em;
 }
 
 .intro-sub {
@@ -526,6 +531,11 @@ SOCIAL ICON
 
 .short-info h3 {
     margin-bottom: 30px;
+    font-size: 1.2em;
+}
+
+.short-info p {
+    font-size: 1.3em;
 }
 
 .short-info ul {
